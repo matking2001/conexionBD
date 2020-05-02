@@ -14,11 +14,13 @@
         $contraseña = trim($_POST['pw']);
         $datos = "INSERT INTO `usuario`(`Nombre`, `Contraseña`) VALUES ('$nombre','$contraseña')";
         $res = mysqli_query($conect,$datos);
+
+        echo "Datos Guardados Exitosamente";
+    }else{
+      echo "se produjo un error";
     }
 
-
-
-    }
+  }
 
 
 ?>
