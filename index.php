@@ -21,7 +21,7 @@
         <input class="input" type="password" name="pw" value="">
         <br>
         <br>
-        <input class="enviar" type="submit" name="" value="Enviar">
+        <input class="enviar" type="submit" name="validar" value="Enviar">
     </form>
   </div>
   <?php
