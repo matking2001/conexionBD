@@ -1,8 +1,5 @@
-<?php 
+<?php
 
-    $localhost = "localhost";
-    $user = "root";
-    $pw = " ";
-    $db = "practica";
+    $conect = mysqli_connect("localhost","root","","practica")
 
 ?>
