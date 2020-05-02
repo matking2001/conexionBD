@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.formulario{
+  border-radius: 20px;
+  height: 260px;
+  width: 300px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: #34495e;
+}
+
+.label{
+  color: orange;
+  font-family: fantasy;
+  font-size: 20px;
+  margin-left: 30%;
+  padding: 30px;
+}
+
+.label2{
+  color: orange;
+  font-family: fantasy;
+  font-size: 20px;
+  margin-left: 25%;
+  padding: 30px;
+}
+
+.input{
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 21%;
+  outline: none;
+}
+
+.enviar{
+  margin-top: 10px;
+  margin-left: 42%;
+  height: 40px;
+  width: 60px;
+  font-family: fantasy;
+  color: black;
+  background-color: orange;
+}
